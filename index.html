@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infisurf</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/android.css">
+    <script src="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js
+    "></script>
+    <link href="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/css/splide.min.css
+    " rel="stylesheet">
+</head>
+
+<body>
+
+
+    <div id="main">
+        <div id="outerContainer">
+            <div id="bannerImg">
+                <img id="banner" src="assets/name.png" alt="">
+            </div>
+
+            <hr>
+
+            <div id="mainPara">
+                Infisurf is a Hostel Wifi Login tool - it is designed to access hostel wifi without logging in through
+                browser. The Hostel/College Wifi logs out when the system is inactive for some time.
+            </div>
+
+            <div id="para2">
+                Tired of logging in again and again to access your hostel/college WiFi? We've got you covered! Say
+                goodbye to those annoying and time-consuming login procedures and enjoy unlimited WiFi access without
+                any hassle.
+            </div>
+
+            <div id="carousal">
+
+
+                <div id="image-slider" class="splide">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <img src="assets/img1.png">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="assets/img2.png">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="image03.jpg">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <!-- download section -->
+
+            <div id="downlodSection">
+                <div id="downloadHead">
+                    Download
+                </div>
+
+                <table cellspacing="1" cellpadding="6" border="1">
+                    <tbody>
+                        <tr>
+                            <th class="title" width=220>Link</th>
+                          
+                            <th class="title" width=160>Platform</th>
+                            <th class="title" width=100>Size</th>
+                            <th class="title" width=120>Date</th>
+                        </tr>
+                        <tr>
+                            <td class="item"><a
+                                    href="https://github.com/pbatard/rufus/releases/download/v4.5/rufus-4.5.exe"><code>Infisurf.exe</code></a>
+                            </td>
+                           
+                            <td class="item">Windows x64</td>
+                            <td class="item"><span dir="ltr">1.4 MB</span></td>
+                            <td class="item">2024.05.22</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+
+
+
+            <!-- steps to use section -->
+
+            <div id="stepsSection">
+                <div id="stepsHead">
+                    Usage
+                </div>
+
+                <div id="usageSteps">
+                    <ol>
+                        <li>Connect to College/Hostel wifi</li>
+                        <li>Open Infisurf and go to connect
+                        </li>
+                        <li>Enter Username and Password of Wifi</li>
+                        <li>
+                            Press Login and Enjoy :-)
+                        </li>
+                    </ol>
+                </div>
+            </div>
+
+
+            <!-- system requirements -->
+
+            <div id="reqSection">
+                <div id="reqHead">
+                    System Requirements
+                </div>
+
+                <div id="reqData">
+                    Windows 8 or later. Once downloaded, the application is ready to use.
+                </div>
+
+            </div>
+
+
+
+            <!-- license section -->
+
+            <div id="licenseSection">
+                <div id="licenseHead">
+                    License
+                </div>
+
+                <div id="licenseText">
+                    GNU General Public License (GPL) version 3 or later.
+                    You are free to distribute, modify or even sell the software, insofar as you respect the GPLv3
+                    license.
+
+                    <br><br>
+
+                    Infisurf is produced in a 100% transparent manner using Python and PyQt5
+                </div>
+            </div>
+
+
+
+            <!-- changelog section -->
+
+            <div id="changelogSection">
+                <div id="changelogHead">
+                    Changelog
+                </div>
+
+                <div id="changeText">
+                    <ul>
+
+                        <li>
+                            <b>Version 1.0.1</b>
+                            <br><br>
+                            <ul>
+                                <li>
+                                    Attractive UI
+                                </li>
+                                <li>
+                                    Lightweight App
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+
+            <!-- source code section -->
+
+            <div id="sourceSection">
+                <div id="sourceHead">
+                    Source Code
+                </div>
+
+                <div id="sourceText">
+
+
+                    <ul>
+                        <li>
+                            Infisurf 1.0.1
+                        </li>
+
+
+                        <li>Alternatively, you can clone the git repository using:
+
+                            <p id="code">git clone https://github.com/amit0-git/Infisurf.git</p>
+                        </li>
+
+                        <li>For more information, see the <a href="https://github.com/amit0-git/Infisurf"
+                                style="color: white;">GitHub project</a>.</li>
+                    </ul>
+
+                    If you are a developer, you are very much encouraged to tinker with Infisurf and submit patches.
+                </div>
+            </div>
+
+
+
+            <!-- copyright section -->
+            <div id="copyright">
+                Copyright © 2024-25 Amit Verma
+
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            new Splide('#image-slider').mount();
+        });
+    </script>
+
+</body>
+
+</html>

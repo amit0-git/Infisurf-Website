@@ -1,0 +1,267 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+#main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+#outerContainer {
+    /* height: 100vh; */
+    background-color: #3f4555;
+    width: 800px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+#bannerImg {
+    width: 100%;
+    display: flex;
+}
+
+#banner {
+    margin: 0 auto;
+}
+
+#mainPara {
+    margin-top: 40px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+
+    font-family: Helvetica, Arial, FreeSans, san-serif !important;
+}
+
+#para2 {
+    margin-top: 10px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+
+    font-family: Helvetica, Arial, FreeSans, san-serif !important;
+}
+
+#carousal {
+    margin-top: 40px;
+}
+
+.splide__slide img {
+    width: 400px;
+    height: auto;
+}
+
+.splide__slide {
+    display: flex;
+    justify-content: center;
+}
+
+
+#downlodSection {
+    margin-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#downloadHead {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    border: 2px solid #c0a86c;
+    padding: 10px;
+    background-color: #888681;
+    font-family: Helvetica, Arial, FreeSans, san-serif !important;
+   
+}
+
+
+/* download table */
+table {
+    caption-side: bottom;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+
+th.title {
+    background-color: #80e090;
+    color: white;
+    font-family: Helvetica, Arial, FreeSans, san-serif !important;
+}
+
+
+
+td.item {
+    background-color: #fefffe;
+    color: black;
+}
+
+
+/* Usage */
+#stepsHead {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    border: 2px solid #c0a86c;
+    padding: 10px;
+    font-family: Helvetica, Arial, FreeSans, san-serif !important;
+    background-color: #888681;
+}
+
+#stepsSection {
+    margin-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#usageSteps {
+    font-family: Helvetica, Arial, FreeSans, san-serif !important;
+    color: white;
+}
+
+#reqSection {
+    margin-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+
+#reqHead {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    border: 2px solid #c0a86c;
+    padding: 10px;
+    font-family: Helvetica, Arial, FreeSans, san-serif !important;
+    background-color: #888681;
+}
+
+#reqData {
+    font-family: Helvetica, Arial, FreeSans, san-serif !important;
+    margin-top: 20px;
+
+}
+
+
+/* license section */
+
+#licenseSection {
+    margin-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+
+}
+
+#licenseHead {
+
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    border: 2px solid #c0a86c;
+    padding: 10px;
+    font-family: Helvetica, Arial, FreeSans, san-serif !important;
+    background-color: #888681;
+}
+
+
+#licenseText {
+    font-family: Helvetica, Arial, FreeSans, san-serif !important;
+    margin-top: 20px;
+}
+
+
+
+/* changelog section */
+
+#changelogSection {
+    margin-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+
+
+
+#changelogHead {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    border: 2px solid #c0a86c;
+    padding: 10px;
+    font-family: Helvetica, Arial, FreeSans, san-serif !important;
+    background-color: #888681;
+}
+
+#changeText {
+    font-family: Helvetica, Arial, FreeSans, san-serif !important;
+    margin-top: 20px;
+}
+
+#changeText ul li ul li {
+    font-size: 15px;
+}
+
+
+
+/* source code  */
+
+#sourceSection {
+    margin-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+
+    margin-bottom: 50px;
+}
+
+#sourceHead {
+
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    border: 2px solid #c0a86c;
+    padding: 10px;
+    font-family: Helvetica, Arial, FreeSans, san-serif !important;
+    background-color: #888681;
+}
+
+#code {
+    background-color: black;
+    padding: 10px;
+    font-size: 15px !important;
+}
+
+#sourceText{
+    font-family: Helvetica, Arial, FreeSans, san-serif !important;
+    margin-top: 20px;
+}
+
+
+/* copyright section */
+#copyright{
+    font-family: Helvetica, Arial, FreeSans, san-serif !important;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+    font-style: italic;
+}
+
+
+
